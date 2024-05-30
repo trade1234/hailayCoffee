@@ -219,7 +219,7 @@ h6 {
   width: 1px;
   height: 0%;
   transform: translateY(-50%);
-  animation: lineincrease 1000ms ease-in-out 0s forwards;
+  animation: lineincrease 50ms ease-in-out 0s forwards; 
 }
 
 #preloader .line:after {
@@ -231,8 +231,8 @@ h6 {
   width: 1px;
   height: 100%;
   transform: translateY(-100%);
-  animation: linemove 1200ms linear 0s infinite;
-  animation-delay: 2000ms;
+  animation: linemove 1000ms linear 0s infinite;
+  animation-delay: 200ms;
 }
 
 #preloader.loaded .line {
@@ -246,7 +246,7 @@ h6 {
 
 #preloader.loaded:before,
 #preloader.loaded:after {
-  animation: preloaderfinish 300ms ease-in-out 500ms forwards;
+  animation: preloaderfinish 200ms ease-in-out 200ms forwards;
 }
 
 @keyframes lineincrease {
