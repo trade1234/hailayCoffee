@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
               //serviceID - temeplet - #form - publickey
 
-      emailjs.sendForm("service_6q0x6zj","template_8k6mva9","#contact-form","dVZ8EK5JBvvh1dDNi")
+      emailjs.sendForm("service_fbmhbdv","template_kp9lwyb","#contact-form","qvow-PliKolp_EJ_1")
       .then(() =>{
          // Show sent message 
           contactMessage.textContent = 'Message sent successfully ✅'
