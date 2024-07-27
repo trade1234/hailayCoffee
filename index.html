@@ -14,206 +14,735 @@
   <link href="assets/img/hailay.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assetsforgallery/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
+  <header id="headerr" class="fixed-top d-flex align-items-center">
+    <div class="container">
+      <div class="header-container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <!-- <h1 class="text-light"><a href="index.html"><span>Bethany</span></a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"><img src="assets/img/hailay.png" alt="" class="img-fluid" ></a>
+        </div>
 
-      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/hailay.png" alt="">
+        <nav id="navbarr" class="navbarr">
+          <ul>
+            <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+            <li><a class="nav-link scrollto " href="about.html">About</a></li>
+            <li><a class="nav-link scrollto " href="products.html">Product</a></li>
+            <li><a class="nav-link scrollto " href="gallery.html">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="contact.html">Contact Us</a></li>
+            <li><a class="getstarted scrollto" href="index.html">Get Started</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
 
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html"  class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
+      </div><!-- End Header Container -->
     </div>
   </header><!-- End Header -->
+  
+  <!-- ======= Intro Section ======= -->
+  <div class="intro intro-carousel swiper position-relative">
 
+    <div class="swiper-wrapper">
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-          <h2>We're <span>Hailay Coffee.</span><br>Our website is under maintenance, and we will be back soon!</h2>
-          <p>Feel free to reach out to our customer service team via email or phone if you have specific questions. We’re here to assist you every step of the way!</p>
-          <a href="contact.html" class="btn-get-started">Contact Us</a>
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/homeImage1.png)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row" style="margin-top: -30px;">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top"  style="font-weight: bold; font-size: 20px;">Hailay Coffee
+                      <br> 
+                    </p>
+                    <h1 class="intro-title mb-4 ">
+                      <span class="color-b">Experience</span> 
+                      <br> Ethiopia with Hailay Coffee
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">Get Started</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/homeImage2.png)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row" style="margin-top: -30px;">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top" style="font-weight: bold; font-size: 20px;">Hailay Coffee
+                      <br> 
+                    </p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">Hailay </span> Coffee:
+                      <br> Raw, Rich, Ethiopian
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">Get Started</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/homeImage3.png)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container" >
+              <div class="row" style="margin-top: -30px;">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top" style="font-weight: bold; font-size: 20px;">Hailay Coffee
+                      <br>
+                    </p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">Ethiopia's </span> Gift, 
+                      <br> Hailay's Craft
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">Get Started</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section><!-- End Hero Section -->
+    <div class="swiper-pagination"></div>
+  </div><!-- End Intro Section -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main id="main">
 
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-      <div class="container-fluid">
+    <!-- ======= Services Section ======= -->
+    <section class="section-services section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">About Us</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- ======= About Section ======= -->
+        <section class="section-about" style="margin-top: -120px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 section-t8 position-relative">
+                <div class="row">
+                  <div class="col-md-6 col-lg-5">
+                    <img src="assets/img/aboutImages1.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-2  d-none d-lg-block position-relative" style="margin-left: -100px;">
+                    <div class="title-vertical d-flex justify-content-start">
+                      <span>Hailay Coffee</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-5 section-md-t3">
+                    <div class="title-box-d">
+                      <h3 class="title-d">More About
+                        <span class="color-d">Hailay</span> Coffee.
+                        <br>
+                      </h3>
+                    </div>
+                    <p class="color-text-a" style="text-align: justify;">
+                      Welcome to Hailay Coffee, your premier source for raw coffee beans, directly from the heart of Ethiopia. Founded by Mr. Hailay, our company is dedicated to exporting the finest unroasted coffee, preserving the rich heritage and authentic flavors of Ethiopian coffee.
+                    </p>
+                    <p class="color-text-a" style="text-align: justify;">
+                      With a Certificate of Competence for Coffee Export from the Ethiopian Coffee and Tea Authority, Hailay Coffee stands as a testament to quality, sustainability, and authenticity. Our commitment to excellence begins with our meticulous selection of coffee beans, sourced from the lush, fertile regions of Ethiopia renowned for producing some of the world's best coffee.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section><!-- End Services Section -->
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section" style="margin-top: 150px;">
+      <img src="assets/img/pexels-michael-burrows-7125543.jpg" alt="">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Find Us Though our Emails</h3>
+              <p>Feel free to reach out to our customer service team via email or phone if you have specific questions. We’re here to assist you every step of the way!</p>
+              <a class="cta-btn" href="contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="row gy-4 justify-content-center">
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-1.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-1.png" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+    </section><!-- /Call To Action Section -->
+    <!-- ======= Latest Properties Section ======= -->
+    <section class="section-property section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">Our Products</h2>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-2.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-2.png" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-3.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-3.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-4.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-4.png" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-5.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-5.png" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-6.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-6.png" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-7.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-7.png" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-8.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-8.png" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-9.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-9.png" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-10.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-10.png" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-11.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-11.png" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery-12.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery-12.png" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
+          </div>
         </div>
 
+        <div id="property-carousel" class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/PRODUCTiMAGES3.png" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay" style="margin-top: -110px;">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a" style=" font-size: 30px; font-weight: 700;">
+                        <a href="property-single.html"> SPECIALTY
+                          <br />COFFEE BEANS </a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/productImages6.png" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay" style="margin-top: -110px;">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a" style=" font-size: 30px; font-weight: 700;">
+                        <a href="property-single.html"> WASHED
+                          <br />COFFEE BEANS</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/productImages4.png" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay" style="margin-top: -110px;">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a" style=" font-size: 30px; font-weight: 700;">
+                        <a href="property-single.html"> NATURAL
+                          <br />COFFEE BEANS</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/PRODUCTiMAGES3.png" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay" style="margin-top: -110px;">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a" style=" font-size: 30px; font-weight: 700;">
+                        <a href="property-single.html"> SPECIALTY
+                          <br />COFFEE BEANS </a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/productImages6.png" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay" style="margin-top: -110px;">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a" style=" font-size: 30px; font-weight: 700;">
+                        <a href="property-single.html"> WASHED
+                          <br />COFFEE BEANS</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+                        <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/productImages4.png" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay" style="margin-top: -110px;">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a" style=" font-size: 30px; font-weight: 700;">
+                        <a href="property-single.html">NATURAL
+                          <br />COFFEE BEANS</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="propery-carousel-pagination carousel-pagination"></div>
       </div>
-    </section><!-- End Gallery Section -->
+    </section><!-- End Latest Properties Section -->
+
+    <!-- ======= Agents Section ======= -->
+    <section class="section-agents section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">Gallery</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!-- ======= Gallery Section ======= -->
+        <section id="galleryy" class="galleryy" style="margin-top: -50px;">
+          <div class="container-fluid">
+
+            <div class="row gy-4 justify-content-center">
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-1.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-1.png" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-2.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-2.png" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-3.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-3.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-4.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-4.png" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-5.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-5.png" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-6.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-6.png" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-7.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-7.png" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-8.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-8.png" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-9.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-9.png" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-10.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-10.png" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-11.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-11.png" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="gallery-item h-100">
+                  <img src="assetsforgallery/img/gallery-12.png" class="img-fluid" alt="">
+                  <div class="gallery-links d-flex align-items-center justify-content-center">
+                    <a href="assetsforgallery/img/gallery-12.png" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Gallery Item -->
+
+            </div>
+
+          </div>
+        </section><!-- End Gallery Section -->
+      </div>
+    </section><!-- End Agents Section -->
+    <section id="contact" class="contact">
+      <!-- ======= Agents Section ======= -->
+      <section class="section-agents section-t8">
+        <div class="container">
+          <div class="titlepage" style="display: flex; justify-content: center; align-items: center; margin-bottom: -170px;">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="title-wrap d-flex justify-content-between">
+                  <div class="title-box">
+                    <h2 class="title-a">Find Us Though Different Ways.<br></h2>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Agents Section -->
+
+<!-- ======= Intro Single ======= -->
+<section class="intro-single">
+<div class="container">
+<div class="row">
+  <div class="col-md-12 col-lg-8">
+    <div class="title-single-box">
+      <h1 class="title-single">Contact US</h1>
+      <span class="color-text-a">Feel free to reach out to our customer service team via email or phone if you have specific questions. We’re here to assist you every step of the way!</span>
+    </div>
+  </div>
+  <div class="col-md-12 col-lg-4">
+  </div>
+</div>
+</div>
+</section><!-- End Intro Single-->
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="contact-map box">
+<div id="map" class="contact-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115.118399414!2d38.695743045749936!3d8.963167730925338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1715338469524!5m2!1sen!2set" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+<div class="col-sm-12 section-t8">
+<div class="row">
+<div class="col-md-7">
+  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <div class="form-group">
+          <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" required>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="form-group">
+          <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" required>
+        </div>
+      </div>
+      <div class="col-md-12 mb-3">
+        <div class="form-group">
+          <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" required>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <textarea name="message" class="form-control" name="message" cols="45" rows="8" placeholder="Message" required></textarea>
+        </div>
+      </div>
+      <div class="col-md-12 my-3">
+        <div class="mb-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+      </div>
+
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-a">Send Message</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="col-md-5 section-md-t3">
+  <div class="icon-box section-b2">
+    <div class="icon-box-icon">
+      <span class="bi bi-envelope"></span>
+    </div>
+    <div class="icon-box-content table-cell">
+      <div class="icon-box-title">
+        <h4 class="icon-title">Say Hello</h4>
+      </div>
+      <div class="icon-box-content">
+        <p class="mb-1">Email.
+          <span class="color-a">info@hailaycoffee.com</span>
+        </p>
+        <p class="mb-1">Phone.
+          <span class="color-a">(+251) 914008604 
+            <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+251 968000000 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +251 911202835</span> -->
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="icon-box section-b2">
+    <div class="icon-box-icon">
+      <span class="bi bi-geo-alt"></span>
+    </div>
+    <div class="icon-box-content table-cell">
+      <div class="icon-box-title">
+        <h4 class="icon-title">Find us in</h4>
+      </div>
+      <div class="icon-box-content">
+        <p class="mb-1">
+          Ethiopia, Addis Ababa
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="icon-box">
+    <div class="icon-box-icon">
+      <span class="bi bi-share"></span>
+    </div>
+    <div class="icon-box-content table-cell">
+      <div class="icon-box-title">
+        <h4 class="icon-title">Social networks</h4>
+      </div>
+      <div class="icon-box-content">
+        <div class="socials-footer">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="link-one">
+                <i class="bi bi-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="link-one">
+                <i class="bi bi-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="link-one">
+                <i class="bi bi-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="link-one">
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!-- End Contact Single-->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <section class="section-footer">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Hailay Coffee</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
-        Designed by <a href="https://tradethiopia.com/">Trade Ethiopia</a>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Hailay Coffee</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                Founded in 2016 E.c, Hailay Coffee has a great deal to offer in terms of specialty and organic coffees from Ethiopia to the world.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a"> 
+                  <span class="color-text-a">Email .</span> info@hailaycoffee.com
+                </li>
+                <li class="color-a">
+                  <span class="color-text-a">Phone .</span> (+251) 914008604
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-2 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand" ></h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3" >
+          <div class="widget-a" >
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Usefull Link</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a" >
+                <ul class="list-unstyled" >
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#home">Home</h7></a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#sec">About</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#pro">Products</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#gallery">Gallery</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right" ></i> <a href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">Hailay Coffee</span> All Rights Reserved.
+            </p>
+          </div>
+          <div class="credits">
+            Designed by <a href="https://tradethiopia.com/">Trade Ethiopia</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <div id="preloader">
-    <div class="line"></div>
-  </div>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assetsforgallery/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assetsforgallery/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assetsforgallery/vendor/aos/aos.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assetsforgallery/js/main.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

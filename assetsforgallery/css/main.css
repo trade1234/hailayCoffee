@@ -1,0 +1,68 @@
+
+/*--------------------------------------------------------------
+# Pricing Section
+--------------------------------------------------------------*/
+.galleryy {
+  margin-top: 40px;
+}
+
+.galleryy .gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.galleryy .gallery-item img {
+  transition: 0.3s;
+}
+
+.galleryy .gallery-links {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.galleryy .gallery-links .preview-link,
+.galleryy .gallery-links .details-link {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.galleryy .gallery-links .preview-link:hover,
+.galleryy .gallery-links .details-link:hover {
+  color: #fff;
+}
+
+.galleryy .gallery-links .details-link {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.galleryy .gallery-item:hover .gallery-links {
+  opacity: 1;
+}
+
+.gallery .gallery-item:hover .preview-link,
+.gallery .gallery-item:hover .details-link {
+  margin-top: 0;
+}
+
+.galleryy .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.glightbox-clean .gslide-description {
+  background: #222425;
+}
+
+.glightbox-clean .gslide-title {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
